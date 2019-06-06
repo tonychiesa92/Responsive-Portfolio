@@ -184,6 +184,10 @@ input[type="submit"] {
   .name {
     margin-left: 5px;
   }
+
+  .links {
+    margin-right: 20px;
+  }
   .aboutme {
     width: 66%;
     margin-left: 5px;
@@ -229,6 +233,7 @@ input[type="submit"] {
   .name{
     text-align: center;
     background-color: #4aaaa5;
+    margin-left: 0px;
   }
 
   .links{
