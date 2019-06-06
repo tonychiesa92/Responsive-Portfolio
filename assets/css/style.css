@@ -52,6 +52,8 @@ header {
   float: right;
   margin-top: 36.5px;
   background-color: #ffffff;
+  font-family:  'Arial', 'Helvetica Neue', 'Helvetica', 'sans-serif';
+ color: #cccccc;
 }
 
 .navlink {
@@ -176,11 +178,47 @@ input[type="submit"] {
 }
 
 @media screen and (max-width: 980px) {
+  .topbar-info {
+    width: 100%;
+  }
+  .name {
+    margin-left: 5px;
+  }
+  .aboutme {
+    width: 66%;
+    margin-left: 5px;
+  }
   
+  #foot {
+    margin-top: 16px;
+  }
 }
 
 @media screen and (max-width: 768px) {
- 
+  .topbar-info {
+    width: 100%;
+  }
+  .name {
+    margin-left: 20px;
+  }
+
+  .links {
+    margin-right: 10px;
+  }
+
+  .aboutme {
+    width: 90%;
+    margin: 20px;
+    
+  }
+  .textwrapleft {
+    width: 50%;
+    height: 50%;
+  }
+
+  #foot {
+    margin-top: 16px;
+  }
 }
 
 @media screen and (max-width: 640px) {
@@ -212,7 +250,7 @@ input[type="submit"] {
   }
 
   #foot {
-    margin-top: 16.5px;
+    margin-top: 16px;
   }
 }
 /*
