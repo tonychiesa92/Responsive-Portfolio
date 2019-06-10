@@ -196,6 +196,8 @@ input[type="submit"] {
   #foot {
     margin-top: 16px;
   }
+  
+
 }
 
 @media screen and (max-width: 768px) {
@@ -224,6 +226,10 @@ input[type="submit"] {
     margin-top: 16px;
   }
 }
+
+
+
+
 
 @media screen and (max-width: 640px) {
   .topbar-info, .name, .links {
@@ -259,4 +265,27 @@ input[type="submit"] {
   #foot {
     margin-top: 16px;
   }
+  
+  .banner {
+    width: 73%;
+    position: absolute;
+    margin-top: -330px;
+    
+
+  }
+
+  .banner2 {
+    width: 73%;
+    position: absolute;
+    margin-left: 0px;
+    margin-top: -110px;
+  }
+
+  .portfolio-img {
+    width: 100%;
+    
+  }
 }
+
+
+
